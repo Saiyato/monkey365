@@ -8,10 +8,15 @@
     "remediation":  "
 						###### From Azure Console
 						1. Go to `Microsoft Entra ID`
-						2. Go to `Users`
-						3. Go to `User settings`
-						4. Click on `Manage how end users launch and view their applications`
-						4. Set ` Users can consent to apps accessing company data on their behalf` to `No`
+						2. Go to `Identity`
+						3. Go to `Users`
+						4. Go to `User settings`
+						5. Set `Users can register applications` to `No`
+						6. Go to `Applications`
+						7. Go to `Enterprise applications`
+						8. Go to `Consent and permissions` (under `Security`)
+						9. Set `User consent for applications` to `Do not allow user consent`
+						10. Set `Group consent for applications` to `Do not allow group owner consent`
 	",
     "references":  [
                        "https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/methods-for-assigning-users-and-groups",
